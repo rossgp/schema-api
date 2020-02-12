@@ -22,8 +22,8 @@ The API schema will be served at ``/schema`` and ``/schema/PetService``. The sec
 This is useful if you are developing a set of micro services which may be deployed on different servers and domains. Each service can serve up a definition of its own API and this will work cross-domain. In production the API schema is not served and the ``Access-Control-Allow-Origin`` header is not set.
 
 # Options
-``nickname`` the name of the service shown by Swagger-UI and the also the final part of the url.  
-``schema`` the path to the schema which defaults to ``apiSchema.json`` in the same directory as the main module.  
+``nickname`` the name of the service shown by Swagger-UI and the also the final part of the url.
+``schema`` the path to the schema which defaults to ``apiSchema.json`` in the same directory as the main module.
 ``validation`` indicates that you will use tv4 JSON validation. The ``models`` will be loaded from your schema file at startup.
 
 
@@ -31,11 +31,12 @@ This is useful if you are developing a set of micro services which may be deploy
 ## Release History
 |Version|Date|Description|
 |:--:|:--:|:--|
+|v0.2.3|2020-02-12| Debug dependency upgrade to address security vulnerability |
 |v0.2.2|2014-09-04| Debug logging |
 |v0.2.0|2014-08-22| TV4 JSON validation |
 |v0.1.2|2014-05-07| Add Options request for Swagger UI in CORS situation |
 |v0.1.1|2014-04-30| Access-Control-Allow-Headers |
 |v0.1.0|2014-04-29| Initial Version|
-# License 
+# License
 
 (The MIT License)
